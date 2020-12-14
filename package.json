@@ -1,0 +1,32 @@
+{
+  "name": "firewalla-device-importer",
+  "version": "0.0.1",
+  "description": "Script to automate the import process of devices for a Firewalla.",
+  "bin": "import.js",
+  "dependencies": {
+    "axios": "0.21.0",
+    "json-2-csv": "3.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrodrig/firewalla-device-importer.git"
+  },
+  "keywords": [
+    "firewalla",
+    "gold",
+    "device",
+    "import",
+    "script",
+    "firewalla-gold"
+  ],
+  "author": "Mike Rodrigues <rodrigues.mi@northeastern.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrodrig/firewalla-device-importer/issues"
+  },
+  "homepage": "https://github.com/mrodrig/firewalla-device-importer#readme"
+}
